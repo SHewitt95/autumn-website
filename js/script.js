@@ -19,6 +19,6 @@ function changeSlide(number) {
   }
 
   // Appends new currentPhoto number to the img tag in slider.
-  var srcText = "img/slider-img/autumn" + currentPhoto + ".jpg";
+  var srcText = "img/slider-img/autumn" + currentPhoto + ".JPG";
   image.src = srcText;
 }
