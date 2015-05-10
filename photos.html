@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/reset.css" media="screen" rel="stylesheet" />
+    <link href="css/styles.css" media="screen" rel="stylesheet" />
+    <title>Autumn!</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1><a href="index.html">Hi! I'm Autumn.</a></h1>
+
+        <nav>
+          <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="dislikes.html">Dislikes</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <div id="slider">
+          <div id="prev-arrow"><img class="arrow" src="img/prev-arrow.png" alt="Previous arrow" onclick="changeSlide(-1)" /></div>
+          <div id="next-arrow"><img class="arrow" src="img/next-arrow.png" alt="Next arrow" onclick="changeSlide(1)" /></div>
+          <img id="img-in-slider" src="img/slider-img/autumn0.jpg" alt="Autumn!" />
+        </div>
+
+      </main>
+      <script src="js/script.js">
+      </script>
+    </div>
+  </body>
+</html>
