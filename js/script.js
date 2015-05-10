@@ -2,7 +2,7 @@
 var slider = document.getElementById("slider");*/
 
 var currentPhoto = 0;
-var maxPhoto = 18;
+var maxPhoto = 20;
 
 function changeSlide(number) {
   // Fetches img tag in slider.
