@@ -151,6 +151,12 @@ header nav ul li {
   opacity: 1;
 }
 
+footer {
+  font-size: 0.25em;
+  position: fixed;
+  bottom: 0;
+}
+
 /*.left-turn {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
