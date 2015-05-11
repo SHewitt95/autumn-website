@@ -75,11 +75,11 @@ img {
   cursor: pointer;
 }
 
-#img-in-slider {
+/*#img-in-slider {
   width: 100%;
   height: 100%;
   border: none;
-}
+}*/
 
 #container, main, h1, .photo-box, .content-box, #slider {
   display: block;
@@ -188,4 +188,19 @@ a:link, a:visited, a:hover, a:active {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.slide-img {
+  display: none;
+}
+
+#current-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/******************** Moblie ********************/
+#disappear {
+  display: none;
 }
