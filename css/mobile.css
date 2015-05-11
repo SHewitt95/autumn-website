@@ -8,7 +8,6 @@
     font-family: "Noto Sans", sans-serif;
     background: url("../img/symphony.png");
     position: relative;
-    margin-bottom: 40px;
   }
 
   h1 {
@@ -41,7 +40,7 @@
 
   .content-box {
     width: 72%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     position: relative;
     top: 40px;
   }
@@ -66,7 +65,8 @@
     position: relative;
     top: 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 0px;
+    margin-bottom: 40px;
   }
 
   #prev-arrow, #next-arrow {
