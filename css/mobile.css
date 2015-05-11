@@ -1,0 +1,263 @@
+@media (max-width: 600px) {
+
+  @import url(http://fonts.googleapis.com/css?family=Noto+Sans|Playfair+Display:700italic);
+  /*Noto Sans = Non-header text. Playfair Display = Header text.*/
+
+  body {
+    font-size: 32px;
+    font-family: "Noto Sans", sans-serif;
+    background: url("../img/symphony.png");
+    position: relative;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", sans-serif;
+  }
+
+  img {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  #container {
+    width: 90%;
+  }
+
+  /*main {
+    width: 100%;
+  }*/
+
+  .photo-box {
+    display: none;
+  }
+
+  .content-box {
+    width: 72%;
+    margin-bottom: 20px;
+    position: relative;
+    top: 40px;
+  }
+
+  #disappear {
+    display: block;
+  }
+
+  #disappear ul li a img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #disappear ul li a p {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+  }
+
+  #slider {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #prev-arrow, #next-arrow {
+    height: 300px;
+    width: 70px;
+    /*border: 1px solid black;
+    border-radius: 10px;*/
+    position: absolute;
+  }
+
+  #prev-arrow {
+    left: 0;
+  }
+
+  #next-arrow {
+    right: 0;
+  }
+
+  .arrow {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 55%;
+    cursor: none;
+  }
+
+  /*#img-in-slider {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }*/
+
+  #container, main, h1, .content-box, #slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header nav {
+    text-align: center;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  /***********Small navigation box***********/
+  #menu-icon {
+    display:inline-block;
+    float: left;
+    font-size: 1em;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .mobile-nav ul, #disappear nav:active ul {
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background: none;
+    position: static;
+    width: 70%;
+    border-radius: 0px;
+    float: none;
+  }
+
+  nav li {
+    text-align: center;
+    width: 70%;
+    padding: 0em;
+    margin: 0em;
+    font-size: 0.75em;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  /************************/
+
+  .photo-box img {
+    display: none;
+  }
+
+  .photo-box ul li a {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    height: 302px;
+    /*margin-right: 10px;*/
+  }
+
+  .content-box img {
+    display: none;
+    float: left;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5em;
+    position: relative;
+    right: 14px;
+  }
+
+  .content-box p {
+    font-size: 0.75em;
+    line-height: 1.5;
+  }
+
+  .content-box ul li {
+    display: list-item;
+    list-style-type: circle;
+    line-height: 1.5;
+    position: relative;
+    left: 1em;
+  }
+
+  .img-text {
+    display: none;
+  }
+
+  .img-text span {
+    color: none;
+  }
+
+  .img-text:hover {
+    opacity: none;
+  }
+
+  footer {
+    font-size: 0.25em;
+    position: fixed;
+    bottom: 0;
+    float: left;
+  }
+
+  /*.left-turn {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+
+  .right-turn {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .flip {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }*/
+
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+  }
+
+  .slide-img {
+    display: none;
+  }
+
+  #current-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}

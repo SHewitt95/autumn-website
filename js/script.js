@@ -1,6 +1,3 @@
-/*var arrows = document.getElementsByClassName("arrow");
-var slider = document.getElementById("slider");*/
-
 var currentPhoto = 0;
 var maxPhoto = 20;
 
